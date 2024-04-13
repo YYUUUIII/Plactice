@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-image: url(images/bgimg.jpg);
+    background-size: cover;
+}
+
+.logo{
+    width: 450px;
+    height: auto;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(18, 14, 4);
+    margin-bottom: 30px;
+}
+
+.omikujibox{
+    width: 130px;
+    height: auto;
+    transition-duration: center bottom;
+     animation:furifuri 1.3s linear infinite;
+     cursor: pointer;
+}
+
+@keyframes furifuri{
+    0%,100%{
+        transform: rotate(15deg);
+    }
+    50%{
+        transform:rotate(-15deg);
+    }
+}
+
+#btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#result-image{
+    width:50%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.dai{
+    background-image: url(images/0.daikiti.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#fefe74;
+}
+
+.chu{
+    background-image: url(images/1.tyuukiti.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#ffcd90;
+}
+
+.syo{
+    background-image: url(images/2.syoukiti.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#f6c2ee;
+}
+
+.kiti{
+    background-image: url(images/3.kiti.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#a5fa9c;
+}
+
+.sue{
+    background-image: url(images/4.suekiti.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#bcf4ff;
+}
+
+.kyo{
+    background-image: url(images/5.kyo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#4a33f6;
+}
+
+.resulttx{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(18, 14, 4);
+}
